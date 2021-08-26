@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>選擇方案</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assets/style/all.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-third py-35">
+        <div class="container">
+          <a class="navbar-brand text-secondary fs-4" href="/">DOYOGA</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav | test-muted mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link "
+                  aria-current="page"
+                  href="course.html"
+                  >課程介紹</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link "
+                  href="yoga-space.html"
+                  >瑜珈空間</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link "
+                  href="curriculum.html"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >當月課表</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="hstack d-none d-lg-flex">
+            <a
+              href="reservation-choose.html"
+              class="btn btn-outline-primary rounded-l1  active "
+            >
+              立即預約</a
+            ><a
+              href="contact.html"
+              class="btn btn-outline-primary rounded-l1 ms-3 "
+            >
+              聯絡我們
+            </a>
+          </div>
+        </div>
+      </nav>
+      
+      <!-- 預約 -->
+      
+      <h2 class="fs-3 text-center text-primary mt-md-l64 mt-7">立即預約</h2>
+
+<div
+  class="col-lg-6 col-lg-7 hstack justify-content-md-center justify-content-evenly mx-auto mt-3"
+>
+  <a
+    href="reservation-choose.html"
+    class="btn btn-third btn-md-lg rounded-l1 px-lg-7 px-3 me-md-5  active "
+    >選擇方案</a
+  >
+  <a
+    href="reservation-profile.html"
+    class="btn btn-third btn-md-lg rounded-l1 px-lg-7 px-3 me-md-5 "
+    >填寫資料</a
+  >
+  <a
+    href="reservation-finish.html"
+    class="btn btn-third btn-md-lg rounded-l1 px-lg-7 px-3 "
+    >完成預約</a
+  >
+</div>
+
+<div class="container">
+  <div class="row gy-5 gy-md-4 | text-primary | mt-4 mt-lg-5">
+    <div class="col-lg-4 col-md-12">
+      <div class="course-choose row d-lg-block rounded-l1 mx-1" id="choose1">
+        <div class="col-md-6 col-lg-12 px-0">
+          <img
+            src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20in%20white%20tank%20top%20and%20white%20leggings%20bending%20her%20body.jpg?raw=true"
+            class="card-img-top option-img h100"
+            alt="..."
+          />
+        </div>
+        <div class="card-body col-md-6 col-lg-12 vstack justify-content-center">
+          <h5
+            class="card-title text-lg-center text-md-start text-center mt-4 mt-md-0 mt-lg-4 mb-1"
+          >
+            首次體驗
+          </h5>
+          <p
+            class="text-lg-center text-md-start text-center text-secondary fs-5 mb-2"
+          >
+            NT 1450 / 次
+          </p>
+          <p class="card-text mb-0">
+            分基礎、中級、高級可以選擇。初次至 DOYOGA 上課建議選擇此方案。
+          </p>
+          <a
+            href="#levelFirst"
+            class="btn btn-primary btn-lg text-white w-100 mt-7"
+            data-bs-toggle="collapse"
+            >選擇課程</a
+          >
+        </div>
+      </div>
+      <div class="course-arrow text-center invisible py-1" id="arrowFirst">
+        <span class="material-icons text-dark fs-1">
+          arrow_drop_down
+        </span>
+      </div>
+      <div class="d-lg-none">
+        <div
+          class="collapse course-level container-lg bg-primary text-white pt-6 pb-l64"
+          id="levelFirst"
+        >
+          <h2 class="text-center fs-3 mb-5">選擇課程階級</h2>
+<div class="row flex-md-nowrap overflow-auto px-md-6">
+  <div class="col">
+    <div class="level-choose bg-secondary rounded-l1 shadow p-4" id="level1">
+      <div class="position-relative">
+        <h3 class="fs-4 mt-2 mt-md-0">基礎 Basic</h3>
+        <div class="hstack">
+          <span class="me-2">基礎課程</span
+          ><span class="btn-primary btn-sm rounded-pill text-white px-3"
+            >60 min</span
+          >
+        </div>
+        <p class="mt-3 mb-1">
+          ・入體位法動作解說
+        </p>
+        <p class="mb-1">
+          ・瑜珈基礎動作、順位
+        </p>
+        <p class="mb-1">
+          ・適合任何階段練習者
+        </p>
+        <span class="material-icons position-absolute top-0 end-0 fs-1">
+          check_circle_outline
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="col mt-4 mt-md-0">
+    <div class="level-choose bg-secondary rounded-l1 shadow p-4" id="level2">
+      <div class="position-relative">
+        <h3 class="fs-4 mt-2 mt-md-0">基礎 Basic</h3>
+        <div class="hstack">
+          <span class="me-2">基礎課程</span
+          ><span class="btn-primary btn-sm rounded-pill text-white px-3"
+            >60 min</span
+          >
+        </div>
+        <p class="mt-3 mb-1">
+          ・入體位法動作解說
+        </p>
+        <p class="mb-1">
+          ・瑜珈基礎動作、順位
+        </p>
+        <p class="mb-1">
+          ・適合任何階段練習者
+        </p>
+        <span class="material-icons position-absolute top-0 end-0 fs-1">
+          check_circle_outline
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="col mt-4 mt-md-0">
+    <div class="level-choose bg-secondary rounded-l1 shadow p-4" id="level3">
+      <div class="position-relative">
+        <h3 class="fs-4 mt-2 mt-md-0">基礎 Basic</h3>
+        <div class="hstack">
+          <span class="me-2">基礎課程</span
+          ><span class="btn-primary btn-sm rounded-pill text-white px-3"
+            >60 min</span
+          >
+        </div>
+        <p class="mt-3 mb-1">
+          ・入體位法動作解說
+        </p>
+        <p class="mb-1">
+          ・瑜珈基礎動作、順位
+        </p>
+        <p class="mb-1">
+          ・適合任何階段練習者
+        </p>
+        <span class="material-icons position-absolute top-0 end-0 fs-1">
+          check_circle_outline
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-12">
+      <div class="course-choose row d-lg-block rounded-l1 mx-1" id="choose2">
+        <div class="col-md-6 col-lg-12 px-0">
+          <img
+            src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20performing%20yoga.jpg?raw=true"
+            class="card-img-top option-img h100"
+            alt="..."
+          />
+        </div>
+        <div class="card-body col-md-6 col-lg-12 vstack justify-content-center">
+          <h5
+            class="card-title text-lg-center text-md-start text-center mt-4 mt-md-0 mt-lg-4 mb-1"
+          >
+            短期體驗
+          </h5>
+          <p
+            class="text-lg-center text-md-start text-center text-secondary fs-5 mb-2"
+          >
+            NT $1800 / 月
+          </p>
+          <p class="card-text mb-0">
+            分基礎、中級、高級可以選擇。想試著培養瑜珈習慣者可以選擇此方案。
+          </p>
+          <a
+            href="#levelSec"
+            class="btn btn-primary btn-lg text-white w-100 mt-7"
+            data-bs-toggle="collapse"
+            >選擇課程</a
+          >
+        </div>
+      </div>
+      <div class="course-arrow text-center invisible py-1" id="arrowSec">
+        <span class="material-icons text-dark fs-1">
+          arrow_drop_down
+        </span>
+      </div>
+      <div class="d-lg-none">
+        <div
+          class="collapse course-level container-lg bg-primary text-white pt-6 pb-l64"
+          id="levelSec"
+        >
+          <h2 class="text-center fs-3 mb-5">選擇課程階級</h2>
+<div class="row flex-md-nowrap overflow-auto px-md-6">
+  <div class="col">
+    <div class="level-choose bg-secondary rounded-l1 shadow p-4" id="level1">
+      <div class="position-relative">
+        <h3 class="fs-4 mt-2 mt-md-0">基礎 Basic</h3>
+        <div class="hstack">
+          <span class="me-2">基礎課程</span
+          ><span class="btn-primary btn-sm rounded-pill text-white px-3"
+            >60 min</span
+          >
+        </div>
+        <p class="mt-3 mb-1">
+          ・入體位法動作解說
+        </p>
+        <p class="mb-1">
+          ・瑜珈基礎動作、順位
+        </p>
+        <p class="mb-1">
+          ・適合任何階段練習者
+        </p>
+        <span class="material-icons position-absolute top-0 end-0 fs-1">
+          check_circle_outline
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="col mt-4 mt-md-0">
+    <div class="level-choose bg-secondary rounded-l1 shadow p-4" id="level2">
+      <div class="position-relative">
+        <h3 class="fs-4 mt-2 mt-md-0">基礎 Basic</h3>
+        <div class="hstack">
+          <span class="me-2">基礎課程</span
+          ><span class="btn-primary btn-sm rounded-pill text-white px-3"
+            >60 min</span
+          >
+        </div>
+        <p class="mt-3 mb-1">
+          ・入體位法動作解說
+        </p>
+        <p class="mb-1">
+          ・瑜珈基礎動作、順位
+        </p>
+        <p class="mb-1">
+          ・適合任何階段練習者
+        </p>
+        <span class="material-icons position-absolute top-0 end-0 fs-1">
+          check_circle_outline
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="col mt-4 mt-md-0">
+    <div class="level-choose bg-secondary rounded-l1 shadow p-4" id="level3">
+      <div class="position-relative">
+        <h3 class="fs-4 mt-2 mt-md-0">基礎 Basic</h3>
+        <div class="hstack">
+          <span class="me-2">基礎課程</span
+          ><span class="btn-primary btn-sm rounded-pill text-white px-3"
+            >60 min</span
+          >
+        </div>
+        <p class="mt-3 mb-1">
+          ・入體位法動作解說
+        </p>
+        <p class="mb-1">
+          ・瑜珈基礎動作、順位
+        </p>
+        <p class="mb-1">
+          ・適合任何階段練習者
+        </p>
+        <span class="material-icons position-absolute top-0 end-0 fs-1">
+          check_circle_outline
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-12">
+      <div class="course-choose row d-lg-block rounded-l1 mx-1" id="choose3">
+        <div class="col-md-6 col-lg-12 px-0">
+          <img
+            src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20in%20blue%20leggings%20and%20black%20tank%20top%20doing%20yoga.jpg?raw=true"
+            class="card-img-top option-img h100"
+            alt="..."
+          />
+        </div>
+        <div class="card-body col-md-6 col-lg-12 vstack justify-content-center">
+          <h5
+            class="card-title text-lg-center text-md-start text-center mt-4 mt-md-0 mt-lg-4 mb-1"
+          >
+            長期體驗
+          </h5>
+          <p
+            class="text-lg-center text-md-start text-center text-secondary fs-5 mb-2"
+          >
+            NT $5600 / 季
+          </p>
+          <p class="card-text mb-0">
+            分基礎、中級、高級可以選擇。有長期習慣做瑜伽者建議選擇此方案。
+          </p>
+          <a
+            href="#levelThird"
+            class="btn btn-primary btn-lg text-white w-100 mt-7"
+            data-bs-toggle="collapse"
+            >選擇課程</a
+          >
+        </div>
+      </div>
+      <div class="course-arrow text-center invisible py-1" id="arrowThird">
+        <span class="material-icons text-dark fs-1">
+          arrow_drop_down
+        </span>
+      </div>
+      <div class="d-lg-none">
+        <div
+          class="collapse course-level container-lg bg-primary text-white pt-6 pb-l64"
+          id="levelThird"
+        >
+          <h2 class="text-center fs-3 mb-5">選擇課程階級</h2>
+<div class="row flex-md-nowrap overflow-auto px-md-6">
+  <div class="col">
+    <div class="level-choose bg-secondary rounded-l1 shadow p-4" id="level1">
+      <div class="position-relative">
+        <h3 class="fs-4 mt-2 mt-md-0">基礎 Basic</h3>
+        <div class="hstack">
+          <span class="me-2">基礎課程</span
+          ><span class="btn-primary btn-sm rounded-pill text-white px-3"
+            >60 min</span
+          >
+        </div>
+        <p class="mt-3 mb-1">
+          ・入體位法動作解說
+        </p>
+        <p class="mb-1">
+          ・瑜珈基礎動作、順位
+        </p>
+        <p class="mb-1">
+          ・適合任何階段練習者
+        </p>
+        <span class="material-icons position-absolute top-0 end-0 fs-1">
+          check_circle_outline
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="col mt-4 mt-md-0">
+    <div class="level-choose bg-secondary rounded-l1 shadow p-4" id="level2">
+      <div class="position-relative">
+        <h3 class="fs-4 mt-2 mt-md-0">基礎 Basic</h3>
+        <div class="hstack">
+          <span class="me-2">基礎課程</span
+          ><span class="btn-primary btn-sm rounded-pill text-white px-3"
+            >60 min</span
+          >
+        </div>
+        <p class="mt-3 mb-1">
+          ・入體位法動作解說
+        </p>
+        <p class="mb-1">
+          ・瑜珈基礎動作、順位
+        </p>
+        <p class="mb-1">
+          ・適合任何階段練習者
+        </p>
+        <span class="material-icons position-absolute top-0 end-0 fs-1">
+          check_circle_outline
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="col mt-4 mt-md-0">
+    <div class="level-choose bg-secondary rounded-l1 shadow p-4" id="level3">
+      <div class="position-relative">
+        <h3 class="fs-4 mt-2 mt-md-0">基礎 Basic</h3>
+        <div class="hstack">
+          <span class="me-2">基礎課程</span
+          ><span class="btn-primary btn-sm rounded-pill text-white px-3"
+            >60 min</span
+          >
+        </div>
+        <p class="mt-3 mb-1">
+          ・入體位法動作解說
+        </p>
+        <p class="mb-1">
+          ・瑜珈基礎動作、順位
+        </p>
+        <p class="mb-1">
+          ・適合任何階段練習者
+        </p>
+        <span class="material-icons position-absolute top-0 end-0 fs-1">
+          check_circle_outline
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 三個控制區塊 -->
+<div class="d-none d-lg-block">
+  <div
+    class="collapse course-level container-lg bg-primary text-white pt-6 pb-l64"
+    id="levelFirst"
+  >
+    <h2 class="text-center fs-3 mb-5">選擇課程階級</h2>
+<div class="row flex-md-nowrap overflow-auto px-md-6">
+  <div class="col">
+    <div class="level-choose bg-secondary rounded-l1 shadow p-4" id="level1">
+      <div class="position-relative">
+        <h3 class="fs-4 mt-2 mt-md-0">基礎 Basic</h3>
+        <div class="hstack">
+          <span class="me-2">基礎課程</span
+          ><span class="btn-primary btn-sm rounded-pill text-white px-3"
+            >60 min</span
+          >
+        </div>
+        <p class="mt-3 mb-1">
+          ・入體位法動作解說
+        </p>
+        <p class="mb-1">
+          ・瑜珈基礎動作、順位
+        </p>
+        <p class="mb-1">
+          ・適合任何階段練習者
+        </p>
+        <span class="material-icons position-absolute top-0 end-0 fs-1">
+          check_circle_outline
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="col mt-4 mt-md-0">
+    <div class="level-choose bg-secondary rounded-l1 shadow p-4" id="level2">
+      <div class="position-relative">
+        <h3 class="fs-4 mt-2 mt-md-0">基礎 Basic</h3>
+        <div class="hstack">
+          <span class="me-2">基礎課程</span
+          ><span class="btn-primary btn-sm rounded-pill text-white px-3"
+            >60 min</span
+          >
+        </div>
+        <p class="mt-3 mb-1">
+          ・入體位法動作解說
+        </p>
+        <p class="mb-1">
+          ・瑜珈基礎動作、順位
+        </p>
+        <p class="mb-1">
+          ・適合任何階段練習者
+        </p>
+        <span class="material-icons position-absolute top-0 end-0 fs-1">
+          check_circle_outline
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="col mt-4 mt-md-0">
+    <div class="level-choose bg-secondary rounded-l1 shadow p-4" id="level3">
+      <div class="position-relative">
+        <h3 class="fs-4 mt-2 mt-md-0">基礎 Basic</h3>
+        <div class="hstack">
+          <span class="me-2">基礎課程</span
+          ><span class="btn-primary btn-sm rounded-pill text-white px-3"
+            >60 min</span
+          >
+        </div>
+        <p class="mt-3 mb-1">
+          ・入體位法動作解說
+        </p>
+        <p class="mb-1">
+          ・瑜珈基礎動作、順位
+        </p>
+        <p class="mb-1">
+          ・適合任何階段練習者
+        </p>
+        <span class="material-icons position-absolute top-0 end-0 fs-1">
+          check_circle_outline
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+  <div
+    class="collapse course-level container-lg bg-primary text-white pt-6 pb-l64"
+    id="levelSec"
+  >
+    <h2 class="text-center fs-3 mb-5">選擇課程階級</h2>
+<div class="row flex-md-nowrap overflow-auto px-md-6">
+  <div class="col">
+    <div class="level-choose bg-secondary rounded-l1 shadow p-4" id="level1">
+      <div class="position-relative">
+        <h3 class="fs-4 mt-2 mt-md-0">基礎 Basic</h3>
+        <div class="hstack">
+          <span class="me-2">基礎課程</span
+          ><span class="btn-primary btn-sm rounded-pill text-white px-3"
+            >60 min</span
+          >
+        </div>
+        <p class="mt-3 mb-1">
+          ・入體位法動作解說
+        </p>
+        <p class="mb-1">
+          ・瑜珈基礎動作、順位
+        </p>
+        <p class="mb-1">
+          ・適合任何階段練習者
+        </p>
+        <span class="material-icons position-absolute top-0 end-0 fs-1">
+          check_circle_outline
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="col mt-4 mt-md-0">
+    <div class="level-choose bg-secondary rounded-l1 shadow p-4" id="level2">
+      <div class="position-relative">
+        <h3 class="fs-4 mt-2 mt-md-0">基礎 Basic</h3>
+        <div class="hstack">
+          <span class="me-2">基礎課程</span
+          ><span class="btn-primary btn-sm rounded-pill text-white px-3"
+            >60 min</span
+          >
+        </div>
+        <p class="mt-3 mb-1">
+          ・入體位法動作解說
+        </p>
+        <p class="mb-1">
+          ・瑜珈基礎動作、順位
+        </p>
+        <p class="mb-1">
+          ・適合任何階段練習者
+        </p>
+        <span class="material-icons position-absolute top-0 end-0 fs-1">
+          check_circle_outline
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="col mt-4 mt-md-0">
+    <div class="level-choose bg-secondary rounded-l1 shadow p-4" id="level3">
+      <div class="position-relative">
+        <h3 class="fs-4 mt-2 mt-md-0">基礎 Basic</h3>
+        <div class="hstack">
+          <span class="me-2">基礎課程</span
+          ><span class="btn-primary btn-sm rounded-pill text-white px-3"
+            >60 min</span
+          >
+        </div>
+        <p class="mt-3 mb-1">
+          ・入體位法動作解說
+        </p>
+        <p class="mb-1">
+          ・瑜珈基礎動作、順位
+        </p>
+        <p class="mb-1">
+          ・適合任何階段練習者
+        </p>
+        <span class="material-icons position-absolute top-0 end-0 fs-1">
+          check_circle_outline
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+  <div
+    class="collapse course-level container-lg bg-primary text-white pt-6 pb-l64"
+    id="levelThird"
+  >
+    <h2 class="text-center fs-3 mb-5">選擇課程階級</h2>
+<div class="row flex-md-nowrap overflow-auto px-md-6">
+  <div class="col">
+    <div class="level-choose bg-secondary rounded-l1 shadow p-4" id="level1">
+      <div class="position-relative">
+        <h3 class="fs-4 mt-2 mt-md-0">基礎 Basic</h3>
+        <div class="hstack">
+          <span class="me-2">基礎課程</span
+          ><span class="btn-primary btn-sm rounded-pill text-white px-3"
+            >60 min</span
+          >
+        </div>
+        <p class="mt-3 mb-1">
+          ・入體位法動作解說
+        </p>
+        <p class="mb-1">
+          ・瑜珈基礎動作、順位
+        </p>
+        <p class="mb-1">
+          ・適合任何階段練習者
+        </p>
+        <span class="material-icons position-absolute top-0 end-0 fs-1">
+          check_circle_outline
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="col mt-4 mt-md-0">
+    <div class="level-choose bg-secondary rounded-l1 shadow p-4" id="level2">
+      <div class="position-relative">
+        <h3 class="fs-4 mt-2 mt-md-0">基礎 Basic</h3>
+        <div class="hstack">
+          <span class="me-2">基礎課程</span
+          ><span class="btn-primary btn-sm rounded-pill text-white px-3"
+            >60 min</span
+          >
+        </div>
+        <p class="mt-3 mb-1">
+          ・入體位法動作解說
+        </p>
+        <p class="mb-1">
+          ・瑜珈基礎動作、順位
+        </p>
+        <p class="mb-1">
+          ・適合任何階段練習者
+        </p>
+        <span class="material-icons position-absolute top-0 end-0 fs-1">
+          check_circle_outline
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="col mt-4 mt-md-0">
+    <div class="level-choose bg-secondary rounded-l1 shadow p-4" id="level3">
+      <div class="position-relative">
+        <h3 class="fs-4 mt-2 mt-md-0">基礎 Basic</h3>
+        <div class="hstack">
+          <span class="me-2">基礎課程</span
+          ><span class="btn-primary btn-sm rounded-pill text-white px-3"
+            >60 min</span
+          >
+        </div>
+        <p class="mt-3 mb-1">
+          ・入體位法動作解說
+        </p>
+        <p class="mb-1">
+          ・瑜珈基礎動作、順位
+        </p>
+        <p class="mb-1">
+          ・適合任何階段練習者
+        </p>
+        <span class="material-icons position-absolute top-0 end-0 fs-1">
+          check_circle_outline
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+
+<div class="container pt-5 pb-lg-l104 pb-l80">
+  <div class="text-primary col-lg-4 col-md-8 mx-auto">
+    <h2 class="fs-3 text-center mb-0">預約須知</h2>
+    <ul class="list-unstyled mt-3 mx-3">
+      <li>1. 如果有特殊體質、特殊狀況，請主動告知。</li>
+      <li>
+        2. 取消預約或時間異動請於預約日前一天晚間 21:00
+        前告知，預約當日請勿異動或取消，以免影響您日後再預約的個人信用及難度。
+      </li>
+      <li>
+        3. 為維護上課品質，請遵守 DOYOGA
+        各項參觀規定，未遵守規定者，本公司保留謝絕入館之權利。
+      </li>
+      <li>
+        4. DOYOGA
+        保留修改預約須知之權利，修改後的條款將公佈於本網站上，不另外個別通知。如果您繼續在本網站進行參觀預約，就表示您已經了解、並同意遵守修改後的約定條款。
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div
+  class="position-absolute top-50 end-0 translate-middle-y d-none d-lg-block"
+>
+  <ul class="vstack list-unstyled mb-0 display-5">
+    <li>
+      <a href="#" class="text-primary mx-1"><i class="fab fa-facebook"></i></a>
+    </li>
+    <li>
+      <a href="#" class="text-primary mx-1"><i class="fab fa-instagram"></i></a>
+    </li>
+    <li>
+      <a href="#" class="text-primary mx-1"><i class="fab fa-line"></i></a>
+    </li>
+  </ul>
+</div>
+
+   
+      <!-- 課程介紹 -->
+      
+      <!-- 瑜珈空間 -->
+      
+      <!-- 聯絡我們 -->
+      
+      <!-- 當月課表 -->
+      
+    </header>
+     <footer class="footer bg-primary">
+  <div class="border-bottom">
+    <div class="container">
+      <div class="row hstack text-white" style="min-height: 109px;">
+        <label for="email" class="col-lg-8 fs-4 mb-0">
+          現在訂閱，獲得課程優惠碼！
+        </label>
+        <div class="col-lg-4">
+          <div class="input-group">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="輸入您的電子信箱"
+              aria-label="輸入您的電子信箱"
+              aria-describedby="basic-addon2"
+            />
+            <a href="#" class="btn btn-secondary text-white px-5">訂閱</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container position-relative text-white py-5">
+    <div class="hstack justify-content-between">
+      <h4 class="mb-0">DOYOGA</h4>
+      <ul class="d-flex list-unstyled mb-0 h4">
+        <li>
+          <a href="#" class="text-white mx-1"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#" class="text-white mx-1"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#" class="text-white mx-1"><i class="fab fa-line"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <ul class="list-unstyled fw-light mb-0" style="z-index: 10;">
+      <li class="mt-2">
+        <a href="course.html" class="text-white">課程介紹</a>
+      </li>
+      <li class="mt-2">
+        <a href="yoga-space.html" class="text-white">瑜珈空間</a>
+      </li>
+      <li class="mt-2">
+        <a href="curriculum.html" class="text-white">當月課表</a>
+      </li>
+    </ul>
+    <div
+      class="position-md-static text-md-center w-100 mt-2"
+      style="bottom: 2rem; z-index: 0;"
+    >
+      <span>
+        © 2021. All Rights Reserved.
+      </span>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+</html>
