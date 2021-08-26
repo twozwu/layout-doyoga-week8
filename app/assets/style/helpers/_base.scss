@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;500;700;900&display=swap");
+
+html,
+body {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+img {
+  object-fit: cover;
+}
+
+.btn-third {
+  color: $primary;
+  &:hover,
+  &.active {
+    color: #fff;
+    background: $primary;
+  }
+}

@@ -1,0 +1,20 @@
+// bootstrap
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "./helpers/variables";
+@import "./helpers/utilities";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+//layout
+@import "./helpers/base";
+@import "./layout/index";
+
+//components
+@import "./components/banner";
+
+//pages
+@import "./pages/home";
+@import "./pages/reservation";
+@import "./pages/course";
+@import "./pages/yoga-space";
+@import "./pages/contact";
+@import "./pages/curriculum";

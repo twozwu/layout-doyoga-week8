@@ -1,0 +1,18 @@
+.pic-content {
+  left: 48px;
+  @include media-breakpoint-down(lg) {
+    left: 24px;
+  }
+}
+
+.space-pic {
+  height: 350px;
+  @include media-breakpoint-down(lg) {
+    height: 216px;
+  }
+}
+
+.yoga-space-swiper .swiper-slide {
+  width: 255px;
+  height: 300px;
+}

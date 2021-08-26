@@ -1,0 +1,91 @@
+// 感受身心
+.overall {
+  background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1593810450967-f9c42742e326.jpeg?raw=true")
+    center / cover;
+  min-height: 420px;
+  @include media-breakpoint-only(md) {
+    min-height: 252px;
+  }
+}
+.relax {
+  background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1593810451137-5dc55105dace.jpeg?raw=true")
+    center / cover;
+  min-height: 420px;
+  @include media-breakpoint-only(md) {
+    min-height: 252px;
+  }
+}
+.sculpture {
+  background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1599901860904-17e6ed7083a0.jpeg?raw=true")
+    center / cover;
+  min-height: 420px;
+  @include media-breakpoint-only(md) {
+    min-height: 252px;
+  }
+}
+
+// 頂尖師資
+.teachers {
+  @include media-breakpoint-down(lg) {
+    height: 564px;
+  }
+  @include media-breakpoint-down(md) {
+    height: 594px;
+  }
+}
+.head-pic {
+  @include media-breakpoint-down(md) {
+    height: 68px;
+    width: 68px;
+  }
+}
+
+// 舒適空間
+.comfort-space {
+  min-height: 444px;
+  @include media-breakpoint-down(lg) {
+    min-height: 266px;
+  }
+}
+.sec-img {
+  height: 207px;
+  width: 100%;
+  @include media-breakpoint-down(lg) {
+    height: 117px;
+  }
+  @include media-breakpoint-down(md) {
+    height: 100%;
+  }
+}
+
+// 精心設計
+.class-mh {
+  @include media-breakpoint-up(lg) {
+    min-height: 445px;
+  }
+}
+.class-img {
+  width: 445px;
+  height: 445px;
+  @include media-breakpoint-down(lg) {
+    height: 150px;
+  }
+}
+.index-swiper .swiper-slide {
+  width: 445px;
+}
+
+// 方案選擇
+.option-img {
+  height: 243px;
+  border-top-left-radius: 1rem;
+  @include media-breakpoint-up(lg) {
+    border-top-right-radius: 1rem;
+  }
+  @include media-breakpoint-only(md) {
+    border-bottom-left-radius: 1rem;
+  }
+  @include media-breakpoint-down(md) {
+    border-top-right-radius: 1rem;
+  }
+}

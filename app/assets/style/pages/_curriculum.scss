@@ -1,0 +1,10 @@
+// 隔兩個，從第三個開始
+th:nth-child(2n + 3),
+td:nth-child(2n + 3) {
+  background: $third;
+}
+
+th:not(:first-child) {
+  width: 123px;
+  text-align: center;
+}
