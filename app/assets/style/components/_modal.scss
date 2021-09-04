@@ -1,0 +1,7 @@
+.modal-pic {
+  max-height: 418px;
+  @include media-breakpoint-down(md) {
+    max-width: 165px;
+    max-height: 165px;
+  }
+}
