@@ -121,7 +121,8 @@
     </div>
   </div>
   <div
-  class="position-absolute top-50 end-0 translate-middle-y d-none d-lg-block"
+  class="position-fixed top-30 end-0 translate-middle-y d-none d-lg-block"
+  style="z-index: 1;"
 >
   <ul class="vstack list-unstyled mb-0 display-5">
     <li>
@@ -177,7 +178,12 @@
       <div class="col-lg-9">
         <div class="row">
           <div class="col-lg-7 col-md-6">
-            <div class="wrap position-relative">
+            <div
+              class="wrap position-relative"
+              style="cursor: pointer;"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
               <img
                 src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20doing%20yoga%20beside%20wall.jpg?raw=true"
                 alt=""
@@ -486,6 +492,50 @@
     <!-- SwiperEnd -->
   </div>
 </div>
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content rounded-l1 bg-secondary">
+      <div class="modal-body py-md-l64 py-5 px-lg-l56 px-md-4 px-3">
+        <div class="row text-white gx-lg-6">
+          <div class="col-lg-6 col-md-5 d-flex justify-content-center">
+            <img
+              src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1540206276207-3af25c08abc4.jpeg?raw=true"
+              alt=""
+              class="img-fluid rounded-l1 w-100 h-100 modal-pic"
+            />
+          </div>
+          <div class="col-lg-6 col-md-7 align-self-center mt-3 mt-md-0">
+            <h3 class="fs-4 mt-2 mt-md-0">本月限定課程 - 空中瑜珈</h3>
+            <div class="hstack">
+              <span class="me-2">授課老師：Carol Tang</span
+              ><span class="btn-primary btn-sm text-white rounded-pill px-3"
+                >60 min</span
+              >
+            </div>
+            <p class="mt-3">
+              使用掛布懸掛在半空，進行哈達瑜珈體位法練習 藉由地心引力的重力原理
+              鍛鍊核心肌群，舒緩脊椎壓力 訓練身體協調性，深層放鬆身體
+              課堂裡老師會視同學狀況安排教導倒立動作 對於不敢嘗試倒立的同學來說
+              藉由掛布的支持與保護 加上老師細心指導，讓同學能更快掌握
+            </p>
+            <a href="reservation-choose.html" class="btn btn-third btn-lg"
+              >立即預約</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
  
       <!-- 瑜珈空間 -->
       

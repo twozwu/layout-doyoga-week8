@@ -7034,7 +7034,7 @@ fieldset:disabled .btn {
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 500px;
+    max-width: 690px;
     margin: 1.75rem auto;
   }
   .modal-dialog-scrollable {
@@ -7044,14 +7044,14 @@ fieldset:disabled .btn {
     min-height: calc(100% - 3.5rem);
   }
   .modal-sm {
-    max-width: 300px;
+    max-width: 345px;
   }
 }
 
 @media (min-width: 992px) {
   .modal-lg,
   .modal-xl {
-    max-width: 800px;
+    max-width: 920px;
   }
 }
 
@@ -8404,6 +8404,10 @@ fieldset:disabled .btn {
   top: 0 !important;
 }
 
+.top-30 {
+  top: 30% !important;
+}
+
 .top-50 {
   top: 50% !important;
 }
@@ -8414,6 +8418,10 @@ fieldset:disabled .btn {
 
 .bottom-0 {
   bottom: 0 !important;
+}
+
+.bottom-30 {
+  bottom: 30% !important;
 }
 
 .bottom-50 {
@@ -8428,6 +8436,10 @@ fieldset:disabled .btn {
   left: 0 !important;
 }
 
+.start-30 {
+  left: 30% !important;
+}
+
 .start-50 {
   left: 50% !important;
 }
@@ -8438,6 +8450,10 @@ fieldset:disabled .btn {
 
 .end-0 {
   right: 0 !important;
+}
+
+.end-30 {
+  right: 30% !important;
 }
 
 .end-50 {
@@ -10265,6 +10281,10 @@ fieldset:disabled .btn {
   visibility: hidden !important;
 }
 
+.minh-100 {
+  min-height: 100% !important;
+}
+
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
@@ -11307,6 +11327,9 @@ fieldset:disabled .btn {
   }
   .text-sm-center {
     text-align: center !important;
+  }
+  .minh-sm-100 {
+    min-height: 100% !important;
   }
 }
 
@@ -12353,6 +12376,9 @@ fieldset:disabled .btn {
   .text-md-center {
     text-align: center !important;
   }
+  .minh-md-100 {
+    min-height: 100% !important;
+  }
 }
 
 @media (min-width: 992px) {
@@ -13397,6 +13423,9 @@ fieldset:disabled .btn {
   }
   .text-lg-center {
     text-align: center !important;
+  }
+  .minh-lg-100 {
+    min-height: 100% !important;
   }
 }
 
@@ -14443,6 +14472,9 @@ fieldset:disabled .btn {
   .text-xl-center {
     text-align: center !important;
   }
+  .minh-xl-100 {
+    min-height: 100% !important;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -15488,6 +15520,9 @@ fieldset:disabled .btn {
   .text-xxl-center {
     text-align: center !important;
   }
+  .minh-xxl-100 {
+    min-height: 100% !important;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -15579,6 +15614,17 @@ nav .navbar-brand {
 
 .banner .btn-third:hover {
   background: #eee5d5;
+}
+
+.modal-pic {
+  max-height: 418px;
+}
+
+@media (max-width: 767.98px) {
+  .modal-pic {
+    max-width: 165px;
+    max-height: 165px;
+  }
 }
 
 .overall {
@@ -15724,6 +15770,8 @@ nav .navbar-brand {
 
 .course-choose:hover, .course-choose.active {
   border: 2px solid #c0a4a5;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 .course-level .col {
